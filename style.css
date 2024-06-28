@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #dfdfe2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 650px;
+  background-color: springgreen;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 2rem;
+}
+.item {
+  width: 100%;
+  padding: 2rem;
+}
+
+.one {
+  background-color: #fb6d48;
+}
+
+.two {
+  background-color: gray;
+}
+
+.three {
+  background-color: lightslategrey;
+}
+
+.item img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.item h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 20px 0;
+  color: white;
+}
+
+.item p {
+  font-size: 15px;
+  opacity: 0.7;
+  line-height: 15px;
+  color: white;
+  margin-bottom: 70px;
+  font-weight: 300;
+}
+
+.item a {
+  font-size: 15px;
+  padding: 0.8rem 1rem;
+  text-transform: capitalize;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.one a {
+  color: #fb6d48;
+}
+
+.two a {
+  color: gray;
+}
+
+.three a {
+  color: lightslategray;
+}
+
+@media (max-width: 700px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 244px) {
+  .item a {
+    display: inline-block;
+    text-align: center;
+    border-radius: 50px;
+  }
+}
